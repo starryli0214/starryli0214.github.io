@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方舟科技 - 少儿编程教育</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="image/fangzhoulogo.png" alt="方舟科技" class="logo-img">
+                <span class="logo-text">方舟科技</span>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#courses">课程体系</a></li>
+                <li><a href="#teachers">师资力量</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>开启编程之旅</h1>
+            <p>方舟科技专注于少儿编程教育，培养未来科技创新人才</p>
+            <div class="hero-buttons">
+                <a href="#courses" class="btn btn-primary">了解课程</a>
+                <a href="#contact" class="btn btn-secondary">预约体验</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=children%20coding%20on%20computers%20in%20modern%20classroom%20happy%20kids%20learning%20programming%20technology%20education&image_size=landscape_16_9" alt="少儿编程">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=c%20programming%20language%20logo%20icon%20blue%20code%20symbol&image_size=square" alt="C/C++">
+                </div>
+                <h3>C/C++ 编程</h3>
+                <p>掌握底层编程思维，培养逻辑分析能力</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=python%20programming%20language%20logo%20yellow%20snake%20code%20symbol&image_size=square" alt="Python">
+                </div>
+                <h3>Python 编程</h3>
+                <p>人工智能入门，快速构建创意项目</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=embedded%20system%20microcontroller%20circuit%20board%20k210%20chip%20icon%20blue&image_size=square" alt="K210嵌入式">
+                </div>
+                <h3>K210 嵌入式</h3>
+                <p>物联网基础，动手实践硬件编程</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2>课程体系</h2>
+            <p class="section-description">科学的课程设计，循序渐进培养编程能力</p>
+            
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=c%20programming%20code%20on%20screen%20dark%20theme%20professional%20developer%20workspace&image_size=landscape_4_3" alt="C/C++课程">
+                    </div>
+                    <div class="course-content">
+                        <h3>C/C++ 编程基础</h3>
+                        <p>从变量、循环到函数，系统学习C/C++编程语言，建立扎实的编程基础。</p>
+                        <ul class="course-features">
+                            <li>面向8-12岁学员</li>
+                            <li>48课时</li>
+                            <li>小班教学</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">了解详情</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=python%20programming%20code%20colorful%20syntax%20highlight%20modern%20code%20editor&image_size=landscape_4_3" alt="Python课程">
+                    </div>
+                    <div class="course-content">
+                        <h3>Python 创意编程</h3>
+                        <p>用Python实现游戏、动画和数据分析，激发编程兴趣与创造力。</p>
+                        <ul class="course-features">
+                            <li>面向10-14岁学员</li>
+                            <li>64课时</li>
+                            <li>项目制教学</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">了解详情</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=embedded%20development%20microcontroller%20board%20with%20wires%20and%20components%20maker%20workshop&image_size=landscape_4_3" alt="K210课程">
+                    </div>
+                    <div class="course-content">
+                        <h3>嵌入式开发</h3>
+                        <p>结合硬件与软件，学习物联网开发，动手制作智能项目。</p>
+                        <ul class="course-features">
+                            <li>面向12-16岁学员</li>
+                            <li>72课时</li>
+                            <li>硬件套件包含</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">了解详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="teachers" id="teachers">
+        <div class="container">
+            <h2>师资力量</h2>
+            <p class="section-description">汇聚行业精英，打造专业教学团队</p>
+            
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-image">
+                        <img src="image/gongzaozhou.png" alt="龚造州">
+                    </div>
+                    <div class="teacher-info">
+                        <h3>龚造州</h3>
+                        <p class="teacher-title">首席技术顾问</p>
+                        <p class="teacher-description">深耕K12科创教育生态建设，专注青少年机器人编程赛事指导与一线教师赋能，拥有丰富的竞赛带队、师训交付与科创项目运营经验。
+精通科创教育课程体系与教育硬件生态，依托多年一线教学经验，为合作校教师提供课程落地、课堂教学与竞赛指导全流程赋能，助力学校打造科创教育特色与赛事优势，是集竞赛指导、师训赋能与项目交付于一体的复合型科创教育人才。</p>
+                        <div class="teacher-tags">
+                            <span class="tag">C/C++</span>
+                            <span class="tag">嵌入式</span>
+                            <span class="tag">K210</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <div class="teacher-image">
+                        <img src="image/huaweimin.png" alt="华伟民">
+                    </div>
+                    <div class="teacher-info">
+                        <h3>华伟民</h3>
+                        <p class="teacher-title">高级讲师</p>
+                        <p class="teacher-description">拥有多年一线前端全栈开发实战经验。深耕互联网项目研发领域，熟练掌握各类主流编程架构与跨端开发技术，深耕项目架构搭建、页面交互优化、程序逻辑打磨，实战功底扎实，项目落地经验丰富。
+深耕青少儿编程教学，主讲Python、C++，熟稔学习要点与竞赛考点。擅长化繁为简通俗授课，因材施教。着重塑造逻辑思维与实操能力，实战教学兼备的优质授课师资。</p>
+                        <div class="teacher-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">云计算</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <div class="teacher-image">
+                        <img src="image/lijunlong.png" alt="李俊龙">
+                    </div>
+                    <div class="teacher-info">
+                        <h3>李俊龙</h3>
+                        <p class="teacher-title">课程研发总监</p>
+                        <p class="teacher-description">深耕教育行业多年，行事沉稳内敛、格局眼界兼备，业内圈层汉甚深厚，人脉资源遍布省市教育体系。
+常年与省内教育系统高层往来交好，日常多有私下交流切搓，省内各类教育相关事务、行业赛事统筹定档、资源落地敲定，皆有深度参与和话诉权，圈子里的分量十足、说话极具分量。
+平日里生活志趣清雅有格调，烟品只认经典老牌，茶饮独喜清香韵味款，喜好恒定、不随波抻流。
+为人处世通透周到、重情重礼，懂人情、知分寸，行业内内登门对接事务、维系情谊的同仁，皆深相处之道，礼数周全、往来顺遂省心。</p>
+                        <div class="teacher-tags">
+                            <span class="tag">Scratch</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">C++</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teachers-overview">
+                <div class="overview-item">
+                    <h4>100+</h4>
+                    <p>专业教师</p>
+                </div>
+                <div class="overview-item">
+                    <h4>95%</h4>
+                    <p>本科及以上学历</p>
+                </div>
+                <div class="overview-item">
+                    <h4>5年+</h4>
+                    <p>平均教学经验</p>
+                </div>
+                <div class="overview-item">
+                    <h4>100%</h4>
+                    <p>持证上岗</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <div class="stat-number">5000+</div>
+                <div class="stat-label">学员</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">教师</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">家长满意度</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">8年</div>
+                <div class="stat-label">教学经验</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>关于方舟科技</h2>
+                <p>方舟科技成立于2018年，专注于6-18岁青少年编程教育。我们相信每个孩子都有成为科技创新者的潜力，通过系统的编程课程，帮助他们掌握未来必备的数字技能。</p>
+                <p>我们的教学团队由资深工程师和教育专家组成，拥有丰富的行业经验和教学经验。课程体系经过多年打磨，结合国际先进教育理念，注重培养孩子的逻辑思维、创新能力和问题解决能力。</p>
+                <div class="about-values">
+                    <div class="value-item">
+                        <h4>专业</h4>
+                        <p>专业的师资团队，科学的课程体系</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>创新</h4>
+                        <p>持续创新教学方法，保持领先</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>专注</h4>
+                        <p>专注少儿编程教育，精益求精</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20tech%20education%20center%20interior%20design%20bright%20classroom%20with%20computers%20and%20whiteboard&image_size=portrait_4_3" alt="方舟科技">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>联系我们</h2>
+            <p class="section-description">预约免费体验课，开启孩子的编程之旅</p>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">孩子姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">年龄</label>
+                        <select id="age" name="age" required>
+                            <option value="">请选择年龄</option>
+                            <option value="6-8">6-8岁</option>
+                            <option value="8-10">8-10岁</option>
+                            <option value="10-12">10-12岁</option>
+                            <option value="12-14">12-14岁</option>
+                            <option value="14-16">14-16岁</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">联系电话</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">意向课程</label>
+                        <select id="course" name="course" required>
+                            <option value="">请选择课程</option>
+                            <option value="c">C/C++ 编程</option>
+                            <option value="python">Python 编程</option>
+                            <option value="k210">K210 嵌入式</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言</label>
+                        <textarea id="message" name="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">提交预约</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <h4>校区地址</h4>
+                    <p>珠海市金湾区中郡花园</p>
+                </div>
+                <div class="info-item">
+                    <h4>联系电话</h4>
+                    <p>400-888-8888</p>
+                </div>
+                <div class="info-item">
+                    <h4>营业时间</h4>
+                    <p>周一至周日 9:00-21:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=futuristic%20tech%20logo%20with%20ark%20ship%20and%20circuit%20board%20elements%20blue%20color%20clean%20modern%20design&image_size=square" alt="方舟科技">
+                    <span>方舟科技</span>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#courses">课程体系</a></li>
+                        <li><a href="#teachers">师资力量</a></li>
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系方式</h4>
+                    <p>电话：400-888-8888</p>
+                    <p>邮箱：contact@fangzhou.tech</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 方舟科技. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
